@@ -1,0 +1,138 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "0ce-cA-H7B"; */
+"0ce-cA-H7B.text" = "Title";
+
+/* Class = "UILabel"; text = "10RM  ="; ObjectID = "0qz-d9-l9i"; */
+"0qz-d9-l9i.text" = "10RM  =";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "2p2-n5-0xO"; */
+"2p2-n5-0xO.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "확인"; ObjectID = "78K-9X-67U"; */
+"78K-9X-67U.normalTitle" = "Ok";
+
+/* Class = "UILabel"; text = "12RM  ="; ObjectID = "7X0-Jv-pws"; */
+"7X0-Jv-pws.text" = "12RM  =";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "7wF-Pz-Pac"; */
+"7wF-Pz-Pac.text" = "8";
+
+/* Class = "UILabel"; text = "4RM  ="; ObjectID = "9Gg-fE-Cti"; */
+"9Gg-fE-Cti.text" = "4RM  =";
+
+/* Class = "UILabel"; text = "반복횟수"; ObjectID = "Cdk-HA-e7K"; */
+"Cdk-HA-e7K.text" = "Reps";
+
+/* Class = "UILabel"; text = "5RM  ="; ObjectID = "GYb-0y-6qN"; */
+"GYb-0y-6qN.text" = "5RM  =";
+
+/* Class = "UILabel"; text = "0 세트 완료"; ObjectID = "HI1-Rg-QPU"; */
+"HI1-Rg-QPU.text" = "0 sets Finishi";
+
+/* Class = "UILabel"; text = "8RM  ="; ObjectID = "Kfi-n4-VNr"; */
+"Kfi-n4-VNr.text" = "8RM  =";
+
+/* Class = "UIBarButtonItem"; title = "편집"; ObjectID = "LIY-r8-u2U"; */
+"LIY-r8-u2U.title" = "Edit";
+
+/* Class = "UINavigationItem"; title = "운동 부위"; ObjectID = "MB6-gS-18R"; */
+"MB6-gS-18R.title" = "Body Parts";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Mlv-z7-tIF"; */
+"Mlv-z7-tIF.text" = "Detail";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "PEn-Lg-f9h"; */
+"PEn-Lg-f9h.title" = "Item";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "Qiy-D8-E8N"; */
+"Qiy-D8-E8N.text" = "12";
+
+/* Class = "UILabel"; text = "중량"; ObjectID = "StY-i6-ZLJ"; */
+"StY-i6-ZLJ.text" = "Weight";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ULv-NG-deH"; */
+"ULv-NG-deH.text" = "Title";
+
+/* Class = "UILabel"; text = "3RM  ="; ObjectID = "Uma-Yk-SbV"; */
+"Uma-Yk-SbV.text" = "3RM  =";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "XyJ-WX-489"; */
+"XyJ-WX-489.text" = "2";
+
+/* Class = "UILabel"; text = "(12회 이상은 정확하지 않습니다)"; ObjectID = "YLu-M3-8MI"; */
+"YLu-M3-8MI.text" = "";
+
+/* Class = "UILabel"; text = "9RM  ="; ObjectID = "Yqw-iG-Fh5"; */
+"Yqw-iG-Fh5.text" = "9RM  =";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Yzu-zd-gxv"; */
+"Yzu-zd-gxv.title" = "Item";
+
+/* Class = "UILabel"; text = "5"; ObjectID = "bww-Fl-TP1"; */
+"bww-Fl-TP1.text" = "5";
+
+/* Class = "UILabel"; text = "휴식 시간"; ObjectID = "e4s-ac-xea"; */
+"e4s-ac-xea.text" = "Rest Time";
+
+/* Class = "UILabel"; text = "11"; ObjectID = "eNh-q0-aQK"; */
+"eNh-q0-aQK.text" = "11";
+
+/* Class = "UILabel"; text = "2RM  ="; ObjectID = "ecS-Rk-NuA"; */
+"ecS-Rk-NuA.text" = "2RM  =";
+
+/* Class = "UILabel"; text = "휴식 시간 설정"; ObjectID = "fF6-an-jJd"; */
+"fF6-an-jJd.text" = "Rest Time Setting";
+
+/* Class = "UILabel"; text = "9"; ObjectID = "fmy-sR-C32"; */
+"fmy-sR-C32.text" = "9";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "guB-dY-Iab"; */
+"guB-dY-Iab.text" = "Title";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "hkc-q1-KsC"; */
+"hkc-q1-KsC.text" = "3";
+
+/* Class = "UINavigationItem"; title = "타이틀"; ObjectID = "iaY-VX-oHU"; */
+"iaY-VX-oHU.title" = "Title";
+
+/* Class = "UIButton"; normalTitle = "취소"; ObjectID = "jM6-Ji-hFb"; */
+"jM6-Ji-hFb.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "7RM  ="; ObjectID = "kET-A3-6bF"; */
+"kET-A3-6bF.text" = "7RM  =";
+
+/* Class = "UIButton"; normalTitle = "계산"; ObjectID = "ldn-1U-f5v"; */
+"ldn-1U-f5v.normalTitle" = "Calculate";
+
+/* Class = "UIBarButtonItem"; title = "저장"; ObjectID = "nsf-vN-ugJ"; */
+"nsf-vN-ugJ.title" = "Save";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "ou7-co-Ic2"; */
+"ou7-co-Ic2.text" = "1";
+
+/* Class = "UILabel"; text = "운동부위 추가"; ObjectID = "pG8-6M-h36"; */
+"pG8-6M-h36.text" = "Edit";
+
+/* Class = "UILabel"; text = "7"; ObjectID = "pcp-YC-fEJ"; */
+"pcp-YC-fEJ.text" = "7";
+
+/* Class = "UILabel"; text = "1RM  ="; ObjectID = "pjB-1u-TLN"; */
+"pjB-1u-TLN.text" = "1RM  =";
+
+/* Class = "UILabel"; text = "6RM  ="; ObjectID = "qkT-vw-svb"; */
+"qkT-vw-svb.text" = "6RM  =";
+
+/* Class = "UIBarButtonItem"; title = "취소"; ObjectID = "rFu-Jq-Y6C"; */
+"rFu-Jq-Y6C.title" = "Cancel";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "rjF-wD-LH6"; */
+"rjF-wD-LH6.text" = "00:00";
+
+/* Class = "UILabel"; text = "11RM  ="; ObjectID = "ykD-88-hu7"; */
+"ykD-88-hu7.text" = "11RM  =";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "z2z-bh-PY5"; */
+"z2z-bh-PY5.text" = "4";
+
+/* Class = "UILabel"; text = "6"; ObjectID = "zUF-aZ-kbn"; */
+"zUF-aZ-kbn.text" = "6";

@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  Project-WorkoutTimer
+
+  Created by 정덕호 on 2022/02/08.
+  
+*/
+
+
+"Set Finish" = "세트종료";
+"Set Start" = "세트시작";
+"Reset" = "초기화";
+"Rest Time Finish" = "휴식 시간 종료";
+" Set complete" = " 세트 완료";
+"Rest Time" = "휴식 시간";
+"PlayTime" = "운동 진행 시간";
+"Do you want to turn off the rest time finish sound?" = "쉬는시간 종료 알림소리를 끄시겠습니까?";
+"Do you want to turn on the rest time finish sound?" = "쉬는시간 종료 알람소리를 켜시겠습니까?";
+"notice" = "알림";
+"yes" = "네";
+"no" = "아니요";
+"Timer" = "타이머";
+"1RM Calculator" = "1RM 계산기";
+"Workout Log" = "운동일지";
+"Untitled" = "제목없음";
+"delete" = "삭제";
+"Are you sure you want to delete?" = "정말 삭제 하시겠습니까?";
+"All contents inside will be deleted" = "안에 있는 내용도 전부 삭제 됩니다";
+"back" = "뒤로가기";
+"Please enter" = "입력해주세요";
+"no name" = "이름없음";
+"Please enter title" = "제목을 입력해주세요";
+"Are you sure you want to cancel?" = "취소 하시겠습니까?";
+"The content is not saved" = "내용은 저장되지않습니다";
+"no content" = "내용없음";
+"edit" = "편집";
+"new log" = "새 일지";
+"warning" = "경고";
+"check" = "확인";
+"weight is too heavy" = "중량이 너무 높습니다ㅇㅇ";
+"If there are too many reps, it is not accurate" = "반복횟수가 너무 크면 정확도가 크게 떨어집니다";
+"Please enter a number" = "숫자를 입력해주시길 바랍니다";
+"en_US" = "ko_KR";
+"CFBundleDisplayName"="워크아웃 타이머";

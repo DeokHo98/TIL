@@ -1,0 +1,12 @@
+Target dependency graph (5 targets)
+Realm in Pods, no dependencies
+RealmSwift in Pods, depends on:
+Realm in Pods (explicit)
+Pods-Project-WorkoutTimer in Pods, depends on:
+Realm in Pods (explicit)
+RealmSwift in Pods (explicit)
+Pods-Project-WorkoutTimer-Project-WorkoutTimerUITests in Pods, depends on:
+Realm in Pods (explicit)
+RealmSwift in Pods (explicit)
+Pods-Project-WorkoutTimerTests in Pods, depends on:
+Pods-Project-WorkoutTimer in Pods (explicit)
