@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>386496882615-i364flus5i29vi4gqsq373oue5qn4rqi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.386496882615-i364flus5i29vi4gqsq373oue5qn4rqi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAoh6p_r7ZEm52QrYl_LnV3YA2dreC2m_4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>386496882615</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.headingtodev.TED-Clone</string>
+	<key>PROJECT_ID</key>
+	<string>project-ted-c2e4b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>project-ted-c2e4b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:386496882615:ios:cab74e96be09fd8150aa32</string>
+	<key>DATABASE_URL</key>
+	<string>https://project-ted-c2e4b-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
