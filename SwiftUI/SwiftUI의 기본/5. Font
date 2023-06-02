@@ -1,0 +1,14 @@
+# Font 
+- preview에서 다크모드와 라이트모드를 모두 보는 방법    
+```
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ForEach(ColorScheme.allCases, id: \.self) {
+                 ContentView().preferredColorScheme($0)
+            }
+    }
+}
+```
+
+
+
