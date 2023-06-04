@@ -1,0 +1,46 @@
+## 다크모드
+- preView에서 다크모드와 일반모드를 두가지를 보는 방법 
+```
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ForEach(ColorScheme.allCases, id: \.self) {
+                 ContentView().preferredColorScheme($0)
+            }
+    }
+}
+```
+- Text("12345")을 하는경우에는 다크모드엔 white로 일반모드엔 black 컬러로 자동 지정됨.     
+
+## Font
+- Text 뒤에 .font를 이용해서 폰트 설정이 가능
+
+```
+    var body: some View {
+        VStack {
+            Text("Text1")
+                .font(.system(size: 24, weight: .semibold))
+        }
+        .padding()
+    }
+```
+
+## TextStyle
+- 애플 내부적으로 등록해둔 Font 속성
+```
+    var body: some View {
+        VStack {
+            Text("Text1")
+                .font(.largeTitle)
+        }
+        .padding()
+    }
+```
+
+## FontStyle 
+- 배경 색상 backgroundColor(_:)
+- 색상 foregroundColor(_:)
+- 볼드 bold()
+- 기울임 italic()
+- 취소선 strikethrough()
+- 밑줄 underline()
+- baselineOffset (이건 텍스트가 정중앙에서 기준으로 위로 둘지 아래로둘지 결정하는 속성)
