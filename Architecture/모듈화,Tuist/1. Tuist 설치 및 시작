@@ -1,0 +1,44 @@
+# Tuist
+Tuist는 프로젝트의 구조에서 복잡성을 제거하여 Xcode 프로젝트를 보다 쉽게 처리 할 수 있도록 하는 도구이다.   
+이 자습서에서는 Tuist를 사용하여 기존 Xcode 프로젝트를 Tuist로 관리하는 방법을 배울 수 있다.     
+여기서 배우는것은 아래와 같다.    
+
+- project와 workspaces 파일을 제거하고 대신 필요할때마다 생성해서 사용하기    
+- 단위 테스트 추가하기     
+- Swift Package Manager 종속성 처리하기    
+- Tuist에 의존하는 새로운 기능 추가하기   
+
+
+# Tuist 설치 및 시작
+터미널을 열고 아래 명령을 실행
+```
+bash <(curl -Ls https://install.tuist.io)
+```
+
+첫번째 목표는 이 프로젝트를 Tuist를 사용할수 있게 변환하는것이다.   
+이 시점부터는 더이상 프로젝트 디렉터리의 루트에 프로젝트 및 작업 영역 파일을 유지하는 의존하지 않는다.    
+
+- Tuist Manifest File의 이해.     
+Tuist 매니페스트 파일은 Tuist에게 Xcode 프로젝트 파일을 생성하는 방법을 알려주는 Project.swift라는 파일이다.    
+명령줄에서 Tuist와 상호작용하고 Xcode에서 Tuist 매니페스트를 빌드한다.    
+Tuist는 매니페스트 파일 작업을 위한 환경을 생성한 다음 Xcode를 시작하여 코드완성 및 Xcode환경을 제공한다.   
+       
+기존 프로젝트와 workSpace 파일을 삭제하자.     
+다음으로 빈 Tuist 매니페스트 파일을 만들자. 터미널에서 프로젝트로 이동하고 다음을 입력
+```
+touch Project.swift
+```
+이렇게 하면 빈 매니페스트가 생성된다.    
+다음으로 입력하자.   
+```
+tuist edit
+
+//Generating project Manifests
+//Opening Xcode to edit the project. Press CTRL + C once you are done editing
+```
+이렇게하면 Xcode가 프로젝트 파일 편집을 시작할 수 있는 환경으로 열린다. Project.swift를 선택해보자     
+그 뒤에 상단에 다음을 추가하자.    
+```
+import ProjectDescription
+```
+이렇게하면 Tuist 프로젝트 DSL에 엑세스 할 수 있다. 이를 사용하여 유용한 코드 완성으로 프로젝트를 구축하는것이 가능하다.
