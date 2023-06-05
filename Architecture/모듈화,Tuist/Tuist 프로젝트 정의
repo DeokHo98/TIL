@@ -1,0 +1,47 @@
+# 프로젝트 정의
+첫번째 단계는 기본 프로젝트를 설정하는 것이다. 아래의 Project.swift에 코드를 추가해보자.   
+```
+let project = Project(name: "MovieInfo",
+                      organizationName: "YOUR_ORG_NAME_HERE",
+                      settings: nil,
+                      targets: [])
+```
+    
+     
+- project: 기본 프로젝트 및 workSpace를 나타내는 프로젝트를 생성한다. 원하는 이름을 지정할수 있지만 project를 추천
+- name: 프로젝트 및 작업 공간 "파일"의 이름을 나타낸다.   
+- organizationName: 각각의 새 파일 상단에 저작권 표시에 나타나는 이름이다. 조직 이름으로 바꾸면 된다.   
+- settings: 설정을 사용하여 다른 프로젝트 설정을 지정할 수 있다.   
+- targets: 프로젝트와 연결된 대상 목록을 나타낸다. 
+
+참고: Command-B를 사용하여 다른 Xocde프로젝트와 동일한 방법으로 Tuist 매니페스트를 빌드할 수 있다. Swift를 사용하면 다른곳과 동일한,    
+유형의 안전을 얻울 수 있으며, 당신이 잘못한게 있다면 컴파일러가 알려줄 것이다.    
+   
+   
+# 첫번째 Targets 정의
+빈targets 배열에 다음을 추가하자.   
+```
+            targets: [Target(name: "MovieInfo",
+                                       platform: .iOS,
+                                       product: .app,
+                                       bundleId: "<YOUR_BUNDLE_ID_HERE>",
+                                       infoPlist: "MovieInfo/Info.plist",
+                                       sources: ["MovieInfo/Source/**"],
+                                       resources: ["MovieInfo/Resources/**"],
+                                       dependencies: [],
+                                       settings: nil)]
+```
+- name: 앱의 이름을 지정       
+- platform: 지원할 플랫폼을 설정     
+- product: 제품을 앱으로 정의    
+- bundleId: 대상의 번들 ID를 설정    
+- infoPlist: Porject.swift에 상대적인 info.plist를 찾음    
+- sources: 와일드 카드 패턴을 사용해 Source 디렉터리의 모든 소스 파일을 지정, 모든 디렉토리는 프로젝트 생성 후 Xcode 그룹이 된다.   
+- resuources: 와이들 카드 패턴을 사용해 Resource 디렉토리의 모든 파일을 지정, 이러한 디렉토리는 프로젝트 생성 후 Xocode 그룹이 된다.   
+- dependencies: 연결이 필요한 프레임워크인 종속성을 지정한다, 없는경우 빈 배열 
+- settings: 대상에 다른 설정을 지정하는데 사용된다.    
+   
+     
+참고: 더 사용할 수 있는 몇가지 추가 속성이 있는데 보다 복잡한 프로젝트의 경우 유용한 몇가지 옵션이 있다.   
+예를들어 실행 스크립트 및 빌드 단계를 정의하고, 빌드구성표를 사용자 지정하고, Xcode템플릿 파일에 연결하여 파일 생성등을 사용자 지정할수도 있다.  더 많은 정보는 아래 링크 확인
+https://docs.tuist.io/manifests/project
